@@ -13,6 +13,11 @@
 		91E3649E21D3471D0066F8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E3649C21D3471D0066F8BA /* Main.storyboard */; };
 		91E364A021D3471E0066F8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E3649F21D3471E0066F8BA /* Assets.xcassets */; };
 		91E364A321D3471E0066F8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E364A121D3471E0066F8BA /* LaunchScreen.storyboard */; };
+		91FED54D21D34A3600E88AAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 91FED54C21D34A3600E88AAA /* README.md */; };
+		91FED54F21D34C6000E88AAA /* BrokenPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED54E21D34C6000E88AAA /* BrokenPromise.swift */; };
+		91FED55121D34C7A00E88AAA /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED55021D34C7A00E88AAA /* LocationHelper.swift */; };
+		91FED55321D34C8F00E88AAA /* WeatherHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED55221D34C8F00E88AAA /* WeatherHelper.swift */; };
+		91FED55521D34FC800E88AAA /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91FED55421D34FC800E88AAA /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		91E3649F21D3471E0066F8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E364A221D3471E0066F8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E364A421D3471E0066F8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FED54C21D34A3600E88AAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		91FED54E21D34C6000E88AAA /* BrokenPromise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenPromise.swift; sourceTree = "<group>"; };
+		91FED55021D34C7A00E88AAA /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		91FED55221D34C8F00E88AAA /* WeatherHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHelper.swift; sourceTree = "<group>"; };
+		91FED55421D34FC800E88AAA /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		91E3648C21D3471C0066F8BA = {
 			isa = PBXGroup;
 			children = (
+				91FED54C21D34A3600E88AAA /* README.md */,
 				91E3649721D3471D0066F8BA /* swif-weather-app */,
 				91E3649621D3471D0066F8BA /* Products */,
 				09F3C680983350B0491CE196 /* Pods */,
@@ -70,12 +81,16 @@
 		91E3649721D3471D0066F8BA /* swif-weather-app */ = {
 			isa = PBXGroup;
 			children = (
+				91FED55421D34FC800E88AAA /* background.jpg */,
 				91E3649821D3471D0066F8BA /* AppDelegate.swift */,
 				91E3649A21D3471D0066F8BA /* ViewController.swift */,
 				91E3649C21D3471D0066F8BA /* Main.storyboard */,
 				91E3649F21D3471E0066F8BA /* Assets.xcassets */,
 				91E364A121D3471E0066F8BA /* LaunchScreen.storyboard */,
 				91E364A421D3471E0066F8BA /* Info.plist */,
+				91FED54E21D34C6000E88AAA /* BrokenPromise.swift */,
+				91FED55021D34C7A00E88AAA /* LocationHelper.swift */,
+				91FED55221D34C8F00E88AAA /* WeatherHelper.swift */,
 			);
 			path = "swif-weather-app";
 			sourceTree = "<group>";
@@ -149,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E364A321D3471E0066F8BA /* LaunchScreen.storyboard in Resources */,
+				91FED55521D34FC800E88AAA /* background.jpg in Resources */,
 				91E364A021D3471E0066F8BA /* Assets.xcassets in Resources */,
+				91FED54D21D34A3600E88AAA /* README.md in Resources */,
 				91E3649E21D3471D0066F8BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FED55121D34C7A00E88AAA /* LocationHelper.swift in Sources */,
+				91FED55321D34C8F00E88AAA /* WeatherHelper.swift in Sources */,
+				91FED54F21D34C6000E88AAA /* BrokenPromise.swift in Sources */,
 				91E3649B21D3471D0066F8BA /* ViewController.swift in Sources */,
 				91E3649921D3471D0066F8BA /* AppDelegate.swift in Sources */,
 			);
@@ -350,7 +370,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "swif-weather-app/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mehdi.swif-weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -365,7 +388,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "swif-weather-app/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mehdi.swif-weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
